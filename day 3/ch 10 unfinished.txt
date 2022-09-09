@@ -1,0 +1,42 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+int main()
+{
+    int day, month, year;
+
+    printf("entrer le jour :");
+    scanf("%d", &day);
+    printf("entrer le mois :");
+    scanf("%d", &month);
+    printf("entrer l'annee :");
+    scanf("%d", &year);
+    if( month == 1){
+        sprintf( month, , "janvier" );
+    }else if ( month == 2){
+        (char)month == "fevrier";
+    }else if ( month == 3){
+       (char)month == "mars";
+    }else if ( month == 4){
+        (char)month == "avril";
+    }else if ( month == 5){
+        (char)month == "may";
+    }else if ( month == 6){
+        (char)month == "juin";
+    }else if ( month ==7){
+        (char)month == "juillet";
+    }else if ( month == 8){
+        (char)month == "aout";
+    }else if ( month ==9){
+        (char)month == "septembre";
+    }else if ( month ==10){
+        (char)month == "octobre";
+    }else if ( month ==11){
+        (char)month == "novembre";
+    }else if ( month ==12){
+        (char)month == "decembre";
+    } else printf("invalide");
+
+    printf("la date : %d-%d-%d ", day, month, year);
+        return 0;
+}
